@@ -2,7 +2,7 @@
   "name": "06_proyecto_pelis",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://danielurbanoluna.github.io/",
+  "homepage": "https://danielurbanoluna.github.io/06_proyecto_pelis/build",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
