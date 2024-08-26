@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d5e22583.css",
+    "main.js": "/static/js/main.7407a5b9.js",
+    "static/media/cascoespartano.png": "/static/media/cascoespartano.bb2a48079c4a9b498541.png",
+    "static/media/serie.png": "/static/media/serie.d6a749b9e4f82c00affc.png",
+    "static/media/peli.png": "/static/media/peli.dd68b8d3e37b74249e5c.png",
+    "index.html": "/index.html",
+    "main.d5e22583.css.map": "/static/css/main.d5e22583.css.map",
+    "main.7407a5b9.js.map": "/static/js/main.7407a5b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5e22583.css",
+    "static/js/main.7407a5b9.js"
+  ]
+}
