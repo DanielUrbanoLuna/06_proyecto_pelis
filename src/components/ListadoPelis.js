@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { Editar_peli } from './Editar_peli';
+import { EditarPeli } from './EditarPeli';
 
-export const Listado_Pelis = ({listadopelisState, setListadopelisState}) => {
+export const ListadoPelis = ({listadopelisState, setListadopelisState}) => {
 
     //const [listadopelisState, setListadopelisState] = useState ([]);
 
@@ -52,7 +52,7 @@ export const Listado_Pelis = ({listadopelisState, setListadopelisState}) => {
             {/*Aparece formulario para editar*/}
             {editarPeli === peli.id &&(
 
-                <Editar_peli peli={peli}
+                <EditarPeli peli={peli}
                              conseguirPeliculas = {conseguirPeliculas}
                              setEditarPeli = {setEditarPeli}
                              setListadopelisState = {setListadopelisState}

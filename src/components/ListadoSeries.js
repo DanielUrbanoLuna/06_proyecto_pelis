@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { EditarSerie } from './EditarSerie';
 
-export const Listado_Series = ({listadoseriesState, setListadoseriesState}) => {
+export const ListadoSeries = ({listadoseriesState, setListadoseriesState}) => {
 
     //const [listadoseriesState, setListadoseriesState] = useState ([]);
 

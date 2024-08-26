@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Img_casco = () => {
+export const ImgCasco = () => {
   return (
     <article className="casco"></article>
   )
