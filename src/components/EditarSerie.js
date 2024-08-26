@@ -1,52 +1,51 @@
 import React from 'react'
 
-export const Editar_peli = ({peli, conseguirPeliculas, setEditarPeli, setListadopelisState}) => {
+export const EditarSerie = ({serie, conseguirseries, setEditarSerie, setListadoseriesState}) => {
 
-    const titulo_peli = "editar pelicula";
+    const titulo_serie = "editar serie";
 
-    const guardarEdicionPeli = (e, id) => {
+    const guardarEdicionSerie = (e, id) => {
       e.preventDefault();
       
       //conseguir target del evento
       let target = e.target;
 
       //buscar el indice del objeto de peli a actualizar
-      const pelis_almacenadas = conseguirPeliculas();
-      const indicepeli = pelis_almacenadas.findIndex(peli => peli.id === id);
-      
+      const series_almacenadas = conseguirseries();
+      const indiceserie = series_almacenadas.findIndex(serie => serie.id ===id);
+
       //crear objeto con ese id del indice con titulo y descripcion del formulario
-      let peli_actualizada = {
+      let serie_actualizada = {
           id,
           titulo: target.titulo.value,
           descripcion: target.descripcion.value
       };
 
       //actualizar el elemento con ese indice
-      pelis_almacenadas[indicepeli] = peli_actualizada;
+      series_almacenadas[indiceserie] = serie_actualizada;
 
       //guardar el nuevo array objetos en localStorage
-      localStorage.setItem("pelis", JSON.stringify(pelis_almacenadas));
+      localStorage.setItem("series", JSON.stringify(series_almacenadas));
 
       //actualizar estados
-      setListadopelisState(pelis_almacenadas);
-      setEditarPeli(0);
+      setListadoseriesState(series_almacenadas);
+      setEditarSerie(0);
 
     }
 
   return (
     <div className='edit_form'>
-        <h3 className='title'>{titulo_peli}</h3>
-        <form onSubmit={e => guardarEdicionPeli(e, peli.id)}>
+        <h3 className='title'>{titulo_serie}</h3>
+        <form onSubmit={ e => guardarEdicionSerie(e, serie.id)}>
             <input type='text'
                    name='titulo'
                    className='titulo_editado'
-                   defaultValue={peli.titulo}/>
+                   defaultValue={serie.titulo}/>
             <textarea
                    name='descripcion'
-                   defaultValue={peli.descripcion}
+                   defaultValue={serie.descripcion}
                    className='descripcion_editada'/>
             <input type='submit' className='editar' value="Actualizar"/>
-
         </form>
     </div>
   )

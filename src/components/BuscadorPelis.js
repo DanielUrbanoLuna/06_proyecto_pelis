@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export const Buscador_pelis = ({listadopelisState, setListadopelisState}) => {
+export const BuscadorPelis = ({listadopelisState, setListadopelisState}) => {
 
   const [busquedaPeli, setBusquedaPeli] = useState("");
   const [peliNoEncontrada, setPeliNoEncontrada] = useState('false');

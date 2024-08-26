@@ -1,11 +1,11 @@
 import { useState } from "react";
 import { AddPelis } from "./components/AddPelis";
 import { AddSeries } from "./components/AddSeries";
-import { Buscador_pelis } from "./components/Buscador_pelis";
-import { Buscador_series } from "./components/Buscador_series";
-import { Listado_Pelis } from "./components/Listado_Pelis";
-import { Listado_Series } from "./components/Listado_Series";
-import { Img_casco } from "./components/Img_casco";
+import { BuscadorPelis } from "./components/BuscadorPelis";
+import { BuscadorSeries } from "./components/BuscadorSeries";
+import { ListadoPelis } from "./components/ListadoPelis";
+import { ListadoSeries } from "./components/ListadoSeries";
+import { ImgCasco } from "./components/ImgCasco";
 
 function App() {
 
@@ -37,25 +37,25 @@ function App() {
         {/*Contenido principal*/}
         <section className="content-pelis">
             {/*aqui van la lista de peliculas*/}
-            <Listado_Pelis listadopelisState={listadopelisState} setListadopelisState={setListadopelisState}/>
+            <ListadoPelis listadopelisState={listadopelisState} setListadopelisState={setListadopelisState}/>
         </section>
 
         <section className="content-series">
             {/*aqui van las series*/}
-            <Listado_Series listadoseriesState={listadoseriesState} setListadoseriesState={setListadoseriesState}/>
+            <ListadoSeries listadoseriesState={listadoseriesState} setListadoseriesState={setListadoseriesState}/>
         </section>
 
             {/*Barra lateral */}
         <aside className="lateral">
-            <Buscador_pelis listadopelisState={listadopelisState} setListadopelisState={setListadopelisState}/>
+            <BuscadorPelis listadopelisState={listadopelisState} setListadopelisState={setListadopelisState}/>
 
-            <Buscador_series listadoseriesState={listadoseriesState} setListadoseriesState={setListadoseriesState}/>
+            <BuscadorSeries listadoseriesState={listadoseriesState} setListadoseriesState={setListadoseriesState}/>
 
             <AddPelis setListadopelisState = {setListadopelisState}/>
 
             <AddSeries setListadoseriesState = {setListadoseriesState}/>
 
-            <Img_casco />
+            <ImgCasco />
            
         </aside>
 

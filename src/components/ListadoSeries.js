@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Editar_serie } from './Editar_serie';
+import { EditarSerie } from './EditarSerie';
 
 export const Listado_Series = ({listadoseriesState, setListadoseriesState}) => {
 
@@ -51,7 +51,7 @@ export const Listado_Series = ({listadoseriesState, setListadoseriesState}) => {
 
             {/*Aparece formulario para editar*/}
             {editarSerie === serie.id && (
-                <Editar_serie serie={serie}
+                <EditarSerie serie={serie}
                               conseguirseries = {conseguirseries}
                               setEditarSerie = {setEditarSerie}
                               setListadoseriesState = {setListadoseriesState}

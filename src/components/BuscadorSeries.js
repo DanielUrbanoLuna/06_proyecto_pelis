@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export const Buscador_series = ({listadoseriesState, setListadoseriesState}) => {
+export const BuscadorSeries = ({listadoseriesState, setListadoseriesState}) => {
 
   const [busquedaSerie, setBusquedaSerie] = useState("");
   const [serieNoEncontrada, setSerieNoEncontrada] = useState('false');
