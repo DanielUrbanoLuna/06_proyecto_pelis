@@ -1,4 +1,4 @@
-# 🌟 Mi Proyecto React: [Nombre del Proyecto]
+# 🌟 Mi Proyecto React: Mis películas y mis series
 
 [![Deployed App](https://img.shields.io/badge/App-Online-brightgreen)]([https://enlace-a-tu-app-desplegada.com](https://danielurbanoluna.github.io/06_proyecto_pelis/build/))
 [![React](https://img.shields.io/badge/React-v17.0.2-blue)](https://reactjs.org/)
@@ -6,21 +6,22 @@
 
 ## 🚀 Descripción
 
-[Nombre del Proyecto] es una aplicación desarrollada en React que [breve descripción de lo que hace tu aplicación]. Este proyecto ha sido diseñado con el objetivo de [objetivo principal, como mejorar la experiencia del usuario, automatizar procesos, etc.].
+Mis películas y mis series es una aplicación desarrollada con React. Este proyecto ha sido diseñado con el objetivo de aprender sobre como utilizar React para agilizar el desarrollo front end y hacerlo responsive para que se adapte a todos los dispositivos.
 
-El desarrollo de esta aplicación me ha permitido profundizar en las tecnologías frontend más actuales, incluyendo React, Hooks, y React Router, además de prácticas de desarrollo moderno como [testeo, CI/CD, despliegue en la nube, etc.].
+El desarrollo de esta aplicación me ha permitido profundizar en las tecnologías frontend más actuales, incluyendo React, Hooks, y React Router, además de prácticas de desarrollo moderno como testeo, CI/CD, despliegue en github, etc..
 
 ## 🖥️ Características Principales
 
 - **Interfaz Intuitiva:** Diseño limpio y fácil de usar.
 - **Altamente Responsive:** Optimizada para diferentes dispositivos y tamaños de pantalla.
-- **Estado Global:** Gestión eficiente del estado con [contexto, Redux, o la tecnología que hayas usado].
+- **Estado Local:** Gestión del estado con `useState` y manejo de efectos secundarios con `useEffect`.
 - **Routing Dinámico:** Navegación fluida y sin interrupciones.
-- **[Otras características destacadas]**
+- **Archivos de código con JavaScript**
+- **HTML y CSS para la estructura y estilos**
 
-## 🔗 Enlace a la Aplicación Desplegada
+## 🔗 [Enlace a la Aplicación Desplegada](https://danielurbanoluna.github.io/06_proyecto_pelis/build/)
 
-Puedes ver la aplicación en funcionamiento aquí: [https://enlace-a-tu-app-desplegada.com](https://enlace-a-tu-app-desplegada.com)
+Puedes ver la aplicación en funcionamiento aquí: [https://danielurbanoluna.github.io/06_proyecto_pelis/build/](https://danielurbanoluna.github.io/06_proyecto_pelis/build/)
 
 ## 🛠️ Tecnologías Utilizadas
 
@@ -28,15 +29,7 @@ Puedes ver la aplicación en funcionamiento aquí: [https://enlace-a-tu-app-desp
   - [React](https://reactjs.org/)
   - [React Router](https://reactrouter.com/)
   - [Axios](https://axios-http.com/)
-  - [Styled Components/Tailwind CSS/Sass/etc.] (elije la que hayas usado)
-  
-- **Backend (si aplica):**
-  - [Node.js](https://nodejs.org/)
-  - [Express](https://expressjs.com/)
-
-- **Base de Datos (si aplica):**
-  - [MongoDB](https://www.mongodb.com/)
-  - [Firebase](https://firebase.google.com/)
+  - [Styled Components/Tailwind CSS/Sass/etc.] 
 
 - **Otros:**
   - [Jest](https://jestjs.io/) para testeo
@@ -67,5 +60,5 @@ Si deseas clonar y ejecutar este proyecto localmente, sigue estos pasos:
     npm start
     ```
 
-La aplicación debería estar corriendo en [http://localhost:3000](http://localhost:3000).
+La aplicación debería estar corriendo en [https://danielurbanoluna.github.io/06_proyecto_pelis/build/](https://danielurbanoluna.github.io/06_proyecto_pelis/build/).
 
