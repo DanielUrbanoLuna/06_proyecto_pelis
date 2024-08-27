@@ -1,4 +1,5 @@
 # 🌟 Mi Proyecto React: Mis películas y mis series
+https://danielurbanoluna.github.io/06_proyecto_pelis/build/
 
 [![Deployed App](https://img.shields.io/badge/App-Online-brightgreen)]([https://enlace-a-tu-app-desplegada.com](https://danielurbanoluna.github.io/06_proyecto_pelis/build/))
 [![React](https://img.shields.io/badge/React-v17.0.2-blue)](https://reactjs.org/)
