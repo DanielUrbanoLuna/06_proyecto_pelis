@@ -6,6 +6,7 @@ https://danielurbanoluna.github.io/06_proyecto_pelis/build/
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ## 🚀 Descripción
+Para usar la aplicación, añade películas o series en su correspondiente formulario, y se irán añadiendo a la interfaz, para después, cuando se busque una, solo aparecerá la película o serie buscada, o en su defecto aparecerá una notificación en rojo indicando que no se ha encontrado ninguna coincidencia. Las peliculas o series añadidas se guardan con localStorage.
 
 Mis películas y mis series es una aplicación desarrollada con React. Este proyecto ha sido diseñado con el objetivo de aprender sobre como utilizar React para agilizar el desarrollo front end y hacerlo responsive para que se adapte a todos los dispositivos.
 
