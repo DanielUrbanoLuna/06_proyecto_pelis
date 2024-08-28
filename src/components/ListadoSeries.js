@@ -37,7 +37,9 @@ export const ListadoSeries = ({listadoseriesState, setListadoseriesState}) => {
     }
 
   return (
+        
     <>
+        
         {listadoseriesState != null ? 
             listadoseriesState.map(serie=>{
 

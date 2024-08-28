@@ -36,12 +36,15 @@ function App() {
 
         {/*Contenido principal*/}
         <section className="content-pelis">
+            
             {/*aqui van la lista de peliculas*/}
+            <div><h2>Estas són tus películas: </h2></div>
             <ListadoPelis listadopelisState={listadopelisState} setListadopelisState={setListadopelisState}/>
         </section>
 
         <section className="content-series">
             {/*aqui van las series*/}
+            <div><h2>Estas són tus series:</h2></div>
             <ListadoSeries listadoseriesState={listadoseriesState} setListadoseriesState={setListadoseriesState}/>
         </section>
 
